@@ -1,4 +1,4 @@
-import random
+import random #rya
 import time
 import urllib
 print ("Welcome to Learn2Save " )
@@ -12,9 +12,9 @@ print(account_balance)
 time.sleep(2)
 
 def play_loop():
-   if account_balance == 200:
+   if account_balance == 0:
        game()
-   elif account_balance == 1000:
+   elif account_balance <= 1000:
        print("YAY! you saved $1000, you're now a financially responsible citizen!")
        exit()
 
