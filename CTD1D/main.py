@@ -79,7 +79,6 @@ else:
    print("Invalid Input, Run again\n")
    exit()
 import turtle #joel
-account_balance = 200
 question4 = input("Your exams just finished and your friends want to go to a chalet together, \n (1)would you like to join them?,\n (2) or miss out on the fun and stay at home?\n Type in 1 OR 2")
 if question4 == "1":
    answer3 = input("You agreed to go for the chalet. Your friends are splitting the costs evenly amongst everyone. \n Would you like to \n (1) Pay a part of the cost for the chalet - $20 \n (2) Pay for the food and drinks -$15 ")
@@ -155,7 +154,7 @@ if question5 == "1":
        exit()
 else:
     print('You have decided to relax during the holidays. Your account balance remains the same.')
-question10 = input("the fixed deposit rate in singapore have increased to 3.8% do you want to put some money into bank account? \n (1)Yes \n (2)No")
+question10 = input("the fixed deposit rate in singapore have increased to 3.8% do you want to put some money into bank account? \n (1)Yes \n (2)No")#YR
 if question10 == "1":
     principal = float(input('enter the amount you want to deposit from $100-$1000:'))
     account_balance = account_balance - principal
